@@ -109,5 +109,4 @@ async function renderGrafica(tipoMoneda) {
   window.myChart = new Chart(chartDOM, config);
 }
 
-// Inicializamos con el dólar como predeterminado
 renderGrafica("dolar");
